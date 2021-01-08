@@ -1,7 +1,5 @@
 #!/bin/bash
-
-# Add two numeric value
-((sum=25+35))
-
-#Print the result
-echo $sum
+echo "this script is from github"
+NUMBER=$(($NUMBERONE + $NUMBERTWO))
+echo "$NUMBER"
+echo "This was added"
