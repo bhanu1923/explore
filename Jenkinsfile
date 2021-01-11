@@ -1,11 +1,11 @@
 pipeline{
-agent any {
-stages{
-stage('build'){
-steps{
-echo 'hello world @@@!!!!!!'
-}
-}
-}
-}
+	agent any {
+	stages{
+	stage ('echo'){
+	steps{
+	echo 'hello world !!!!!!'
+	}
+	}
+	}
+	}
 }
