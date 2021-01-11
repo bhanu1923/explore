@@ -1,3 +1,4 @@
 # explore
 EXPLORE
 exploration
+EXPLORED
